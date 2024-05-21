@@ -1,5 +1,5 @@
 # secbulkdownload
-Tools for bulk download filing archives and individual filing documents. It can do much more. check https://github.com/dlouton/sectoolkit 
+Tool for bulk download filing archives and individual filing documents. It can do much more. check https://github.com/dlouton/sectoolkit 
 as 'secbulkdownload' is based on it. The major changes are 1. it saves individual filings as LZMA compressed files (.xz) instead of .txt and 2. The parser is removed.
 
 ### Installation
