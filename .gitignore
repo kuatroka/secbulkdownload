@@ -1,4 +1,4 @@
-build/
-data/
-dist/
-venv3.12/
+build
+data
+dist
+venv3.12
