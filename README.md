@@ -17,6 +17,9 @@ See the guide on https://github.com/dlouton/sectoolkit
 99.9% of this code is from https://github.com/dlouton/sectoolkit. A big thanks to dlouton. 
 Other than saving in LMZA format this packaged also fixes the error showining up due to the newer versions of `tqdm` need different import statements.
 
+### Changes in versions
+version=0.0.2 removes `tqdm` as it was giving a lot of headcahes with dependencies for other packages that needed it too
+
 
 
 

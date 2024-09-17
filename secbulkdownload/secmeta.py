@@ -6,7 +6,6 @@ import os.path
 import pathlib
 import xmltodict
 import json
-from tqdm import tqdm
 import multiprocessing as mp 
 import re
 
@@ -226,7 +225,7 @@ class idx(object):
         # Fetch any missing idxfiles
         idxlist = []
         ## Need to fix first day of the quarter problem with self._idxurls()
-        for url in tqdm(self._idxurls()):
+        for url in self._idxurls():
             idxpath = self.idxdir+os.sep+os.sep.join(url.split('/')[-3:])
             if idxpath not in idxlocal:
                 path = pathlib.Path(idxpath)
